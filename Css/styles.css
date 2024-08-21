@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Oswald:wght@500&family=Roboto+Slab:wght@900&family=Skranji:wght@700&display=swap" rel="stylesheet');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: rgb(166, 202, 249);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 1vw;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+}
+nav ul li a{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(27, 0, 228);
+    font-weight: bolder;
+}
+h1{
+    margin-bottom: 1vh;
+    font-family: 'Lobster', cursive;
+    padding-left: 2vw;
+    padding-top: 0.7vh;
+}
+h2{
+    margin-bottom: 1vh;
+    font-family: 'Lobster', cursive;
+    padding-left: 2vw;
+}
+p0{
+    font-weight: bold;
+    padding-left: 2vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p1z{
+    font-weight: bold;
+    padding-left: 0.5vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p1{
+    padding: 1.6vw;
+}
+p2{
+    padding: 1.1vw;
+}
+p3{
+    padding: 1.45vw;
+}
+p0a{
+    font-weight: bold;
+    padding-left: 1.2vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p0z{
+    font-weight: bold;
+    padding-left: 0vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p4{
+    padding: 0.85vw;
+}
+p5{
+    padding: 2.1vw;
+}
+p6{
+    padding: 1.4vw;
+}
+p0b{
+    font-weight: bold;
+    padding-left: 2.3vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p0c{
+    font-weight: bold;
+    padding-left: 1vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p7{
+    padding: 0.5vw;
+}
+p8{
+    padding: 0vw;
+}
+p9{
+    padding: 1.8vw;
+}
+p10{
+    font-weight: bold;
+    padding: 0vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p10a{
+    font-weight: bold;
+    padding: 0vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p11{
+    padding: 1.3vw;
+}
+p12{
+    padding: 1.3vw;
+}
+p13{
+    padding: 1.6vw;
+}
+p14{
+    padding: 0.2vw;
+    font-weight: bold;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p14z{
+    padding: 0.2vw;
+    font-weight: bold;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p15{
+    padding: 0.7vw;
+}
+p14a{
+    padding: 1.5vw;
+}
+p16{
+    padding: 1.7vw;
+}
+p24{
+    padding: 0vw;
+    font-weight: bold;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p24z{
+    padding: 0vw;
+    font-weight: bold;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p25{
+    padding: 1vw;
+}
+p24a{
+    padding: 0.8vw;
+}
+p26{
+    padding: 1.4vw;
+}
+p50{
+    font-weight: bold;
+    padding-left: 1.1vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p51{
+    padding: 1.8vw;
+}
+p52{
+    padding: 1.2vw;
+}
+p53{
+    padding: 1.05vw;
+}
+p50a{
+    font-weight: bold;
+    padding-left: 0vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p54{
+    padding: 1vw;
+}
+p55{
+    padding: 0.2vw;
+}
+p56{
+    padding: 1.2vw;
+}
+p50b{
+    font-weight: bold;
+    padding-left: 1vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p57{
+    padding: 1vw;
+}
+p58{
+    padding: 0.4vw;
+}
+p59{
+    padding: 1.4vw;
+}
+p510{
+    font-weight: bold;
+    padding: 0.7vw;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p511{
+    padding: 1.3vw;
+}
+p512{
+    padding: 2.6vw;
+}
+p513{
+    padding: 1.5vw;
+}
+p514{
+    padding: 0.6vw;
+    font-weight: bold;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p515{
+    padding: 0.75vw;
+}
+p514a{
+    padding: 1.2vw;
+}
+p516{
+    padding: 1.8vw;
+}
+p524{
+    padding: 0.5vw;
+    font-weight: bold;
+    color: rgb(0, 81, 255);
+    font-family: 'Roboto Slab', serif;
+}
+p525{
+    padding: 1.7vw;
+}
+p524a{
+    padding: 0.5vw;
+}
+p526{
+    padding: 1.3vw;
+}
+footer{
+    background-color: rgb(80, 76, 76);
+    color: whitesmoke;
+    height: 5vh;
+    /* width: 100vw; */
+}
+@keyframes slider {
+
+    0% {
+        left: 0;
+    }
+    
+    15% {
+        left: 0;
+    }
+    
+    23% {
+        left: -100%;
+    }
+    
+    38% {
+        left: -100%;
+    }
+    
+    46% {
+        left: -200%;
+    }
+    
+    61% {
+        left: -200%;
+    }
+    
+    69% {
+        left: -300%;
+    }
+    
+    84% {
+        left: -300%;
+    }
+    
+    92% {
+        left: -400%;
+    }
+
+    100%{
+        left: -400%;
+    }
+    
+    }
+    
+    #slider {
+        padding-top: 0.85vh;
+        padding-left: 0.4vw;
+        padding-right: 0.4vw;
+        padding-bottom: 0.3vh;
+        overflow: hidden;
+        height: 48vh;
+        /* border: 2px solid black; */
+    
+    }
+    
+    #slider figure img {
+        width:20%;
+        height: 67%;
+        float: left;
+    
+    }
+    
+    #slider figure {
+        position: relative;
+        width: 500%;
+        /* z-index: 500; */
+        height: 500px;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 20s slider infinite; 
+    
+    }

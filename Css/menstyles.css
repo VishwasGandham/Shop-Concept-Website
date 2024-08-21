@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Oswald:wght@500&family=Roboto+Slab:wght@900&family=Skranji:wght@700&display=swap" rel="stylesheet');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(166, 202, 249);
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 1vw;
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+}
+nav ul li a{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(27, 0, 228);
+    font-weight: bolder;
+}
+h1{
+    color: rgb(0, 0, 0);
+    padding-top: 3vh;
+    margin-bottom: 1.5vh;
+    font-family: 'Lobster', cursive;
+    padding-left: 2vw;
+}
+footer{
+    background-color: rgb(80, 76, 76);
+    color: whitesmoke;
+    height: 5vh;
+    /* width: 100vw; */
+}
+@keyframes slider {
+
+    0% {
+        left: 0;
+    }
+    
+    15% {
+        left: 0;
+    }
+    
+    23% {
+        left: -100%;
+    }
+    
+    38% {
+        left: -100%;
+    }
+    
+    46% {
+        left: -200%;
+    }
+    
+    61% {
+        left: -200%;
+    }
+    
+    69% {
+        left: -300%;
+    }
+    
+    84% {
+        left: -300%;
+    }
+    
+    92% {
+        left: -400%;
+    }
+
+    100%{
+        left: -400%;
+    }
+    
+    }
+    
+    #slider {
+        padding-top: 0.85vh;
+        padding-left: 0.4vw;
+        padding-right: 0.4vw;
+        padding-bottom: 0.3vh;
+        overflow: hidden;
+        height: 48vh;
+        /* border: 2px solid black; */
+    
+    }
+    
+    #slider figure img {
+        width:20%;
+        height: 67%;
+        float: left;
+    
+    }
+    
+    #slider figure {
+        position: relative;
+        width: 500%;
+        /* z-index: 500; */
+        height: 500px;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 20s slider infinite; 
+    
+    }
+    
